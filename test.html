@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>限定大小的HTML示例</title>
+    <style>
+        body {
+            width: 600px;
+            height: 300px;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* 防止内容溢出 */
+        }
+        #container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>QIMA</h1>
+        <p>Test</p>
+        <a href="https://www.example.com">Link</a>
+    </div>
+</body>
+</html>
